@@ -1,9 +1,5 @@
 User-agent: *
 Disallow: /pics/
-Disallow: /edex
-Disallow: /twitter
 Disallow: /github
 Disallow: /linkedin
-Disallow: /hn
-Disallow: /pgp
 Disallow: /404.html

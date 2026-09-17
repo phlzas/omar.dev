@@ -43,5 +43,5 @@ const server = createServer(async (request, response) => {
 })
 
 server.listen(port, () => {
-	console.log(`Serving gaby.dev at http://localhost:${port}`)
+	console.log(`Serving omar.dev at http://localhost:${port}`)
 })

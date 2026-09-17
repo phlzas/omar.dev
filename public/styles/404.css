@@ -17,12 +17,12 @@ body {
 		Droid Sans,
 		Helvetica Neue,
 		sans-serif;
-	background: black;
-	color: white;
+	background: #0D1117;
+	color: #D8CFC0;
 }
 
 a {
-	color: white;
+	color: #D8CFC0;
 	text-decoration: underline;
 	opacity: 0.5;
 	transition: opacity 0.2s ease-out;
@@ -117,8 +117,8 @@ h1::after {
 	left: 2px;
 	text-shadow: -1px 0 red;
 	top: 0;
-	color: white;
-	background: black;
+	color: #D8CFC0;
+	background: #0D1117;
 	overflow: hidden;
 	animation: noise-anim 2s infinite linear alternate-reverse;
 }
@@ -194,8 +194,8 @@ h1::before {
 	left: -2px;
 	text-shadow: 1px 0 blue;
 	top: 0;
-	color: white;
-	background: black;
+	color: #D8CFC0;
+	background: #0D1117;
 	overflow: hidden;
 	animation: noise-anim-2 15s infinite linear alternate-reverse;
 }

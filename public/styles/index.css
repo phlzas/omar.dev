@@ -8,12 +8,12 @@ html {
 body {
 	margin: auto;
 	font-family: Poppins, sans-serif;
-	background: #ff8200;
-	color: white;
+	background: #0D1117;
+	color: #D8CFC0;
 }
 
 a {
-	color: white;
+	color: #E8A33D;
 	transition: color .2s ease-out;
 	text-decoration: underline;
 	cursor: pointer;
@@ -21,20 +21,20 @@ a {
 
 a:hover,
 a:active, a:focus {
-	color: #7a0000;
+	color: #2DD4BF;
 }
 
 @keyframes hue-shift {
 	from {
-		filter: drop-shadow(0 0 14px rgba(182,244,0,0.75)) hue-rotate(0deg);
+		filter: drop-shadow(0 0 14px rgba(45,212,191,0.35)) hue-rotate(0deg);
 	}
 	to {
-		filter: drop-shadow(0 0 14px rgba(182,244,0,0.75)) hue-rotate(360deg);
+		filter: drop-shadow(0 0 14px rgba(45,212,191,0.35)) hue-rotate(360deg);
 	}
 }
 
 #painting-shadow {
-	filter: drop-shadow(0 0 14px rgba(182,244,0,0.75));
+	filter: drop-shadow(0 0 14px rgba(45,212,191,0.35));
 	animation: hue-shift 15s ease-in-out infinite alternate;
 }
 
@@ -56,8 +56,8 @@ a:active, a:focus {
 	clip-path: url(#scaledClip);
 
 	background:
-		no-repeat url("/pics/background/orange-fluid.jpg") 30% center/cover,
-		repeat radial-gradient(circle at center, hsl(248deg, 100%, 50%) 4vw, hsl(163, 100%, 76%) 1px) center / 6vw 6vw;
+		no-repeat radial-gradient(circle at 30% 35%, rgba(232,163,61,0.95) 0%, rgba(45,212,191,0.55) 45%, rgba(13,17,23,0.95) 75%),
+		repeat radial-gradient(circle at center, rgba(13,17,23,0.9) 4vw, rgba(13,17,23,0.35) 1px) center / 6vw 6vw;
 	background-blend-mode: difference;
 	animation: background-move 15s ease-in-out infinite alternate;
 }
@@ -85,6 +85,7 @@ h1 {
 	margin: 0;
 	margin-top: -3rem;
 	text-decoration: underline;
+	color: #E8A33D;
 }
 
 p {
@@ -94,7 +95,7 @@ p {
 }
 
 #bio {
-	color: rgba(255,255,255,0.5);
+	color: rgba(216,207,192,0.5);
 }
 
 #talk {
@@ -102,5 +103,5 @@ p {
 }
 
 footer {
-	color: rgba(255,255,255,0.5);
+	color: rgba(216,207,192,0.5);
 }

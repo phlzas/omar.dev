@@ -8,38 +8,16 @@
 	},
 	"routes": [
 		{
-			"src": "/edex",
-			"status": 302,
-			"headers": { "Location": "https://github.com/GitSquared/edex-ui" }
-		},
-		{
-			"src": "/twitter",
-			"status": 302,
-			"headers": { "Location": "https://twitter.com/GitSquared" }
-		},
-		{
 			"src": "/github",
 			"status": 302,
-			"headers": { "Location": "https://github.com/GitSquared" }
+			"headers": { "Location": "https://github.com/phlzas" }
 		},
 		{
 			"src": "/linkedin",
 			"status": 302,
 			"headers": {
-				"Location": "https://www.linkedin.com/in/gabriel-saillard/"
+				"Location": "https://www.linkedin.com/in/omar-ahmed-0875aa2b4"
 			}
-		},
-		{
-			"src": "/hn",
-			"status": 302,
-			"headers": {
-				"Location": "https://news.ycombinator.com/user?id=_squared_"
-			}
-		},
-		{
-			"src": "/pgp",
-			"headers": { "Content-Type": "application/pgp-keys" },
-			"dest": "/pgp-public.asc"
 		},
 		{ "handle": "filesystem" },
 		{
